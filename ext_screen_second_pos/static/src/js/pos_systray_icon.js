@@ -1,4 +1,4 @@
-odoo.define('customer_screen_pos.SystrayButtonScreen', function(require) {
+odoo.define('ext_screen_second_pos.SystrayButtonScreen', function(require) {
 'use strict';
     /**
     Function to set systray button for open Customer Screen

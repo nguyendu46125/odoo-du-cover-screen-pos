@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="ext_screen_second_pos_extend_assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/ext_screen_second_pos/static/src/js/pos_systray_icon.js"/>
+            <script type="text/javascript" src="/ext_screen_second_pos/static/src/js/product_click.js"/>
+            <link rel="stylesheet" href="/ext_screen_second_pos/static/src/css/customer_screen_pos.css"/>
+        </xpath>
+    </template>
+</odoo>

@@ -41,7 +41,7 @@ class AddMyProductReview(http.Controller):
         """For pass records into order-lines template and return template body
             to js file for generate new page"""
         response = http.Response(
-            template='customer_screen_pos.customer_pos_screen',
+            template='ext_screen_second_pos.customer_pos_screen',
             qcontext={'orderlinelist': orderlinelist, 'total': total})
         return response.render()
 
@@ -50,7 +50,7 @@ class AddMyProductReview(http.Controller):
     def customer_screen_pos(self):
         """Default customer screen for merge orders list and review template"""
         return (request.render
-                ("customer_screen_pos.customer_screen_pos_main_page"))
+                ("ext_screen_second_pos.customer_screen_pos_main_page"))
 
     @http.route(['/customer/review/<review>'], type='json', auth="none",
                 website=False, csrf=False)

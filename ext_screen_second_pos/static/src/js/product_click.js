@@ -1,4 +1,4 @@
-odoo.define('customer_screen_pos.ProductItemClick', function (require) {
+odoo.define('ext_screen_second_pos.ProductItemClick', function (require) {
     "use strict";
     /**
     Function for generating customer screen when selecting a product to order
